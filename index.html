@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Prince Duggal's shop selling meat, chicken, burgers, samosas, pizza, and offering physical therapy services. Located in Jind, Haryana, India.">
+    <meta name="keywords" content="Prince Duggal, shop, meat, chicken, burgers, samosas, pizza, physical therapy, Jind, Haryana">
+    <meta name="author" content="Prince Duggal">
+    <title>Prince Duggal's Shop and Services</title>
+    <link rel="shortcut icon" href="shop_icon.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .section {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .section-title {
+            margin: 0 0 10px;
+            color: #333;
+            font-size: 22px;
+            border-bottom: 2px solid #77aaff;
+        }
+        .about, .services, .menu, .booking-form {
+            display: flex;
+            align-items: center;
+        }
+        .about img, .services img, .menu img, .booking-form img {
+            width: 200px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .menu img, .menu-item img {
+            width: 100px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .contact-info a {
+            color: #0f87d7;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        .booking-form {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .booking-form form {
+            width: 100%;
+        }
+        .form-group {
+            margin-bottom: 10px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        .form-group input[type="submit"] {
+            width: auto;
+            background: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Prince Duggal Service available</h1>
+    </header>
+
+    <div class="container">
+        <nav>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#services">Services</a>
+            <a href="#booking">Booking</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <section id="about" class="section">
+            <h2 class="section-title">About the sexy boy prince</h2>
+            <div class="about">
+                <img src="prince.JPG" alt="Prince Duggal's Shop">
+                <p>Welcome to Prince Duggal's Shop, located in Jind, Haryana, India. We specialize in fresh meat and chicken during the day and serve delicious burgers, samosas, and pizza at night. Our commitment is to provide the best quality food to our customers. Visit us for an exceptional culinary experience!</p>
+            </div>
+        </section>
+
+        <section id="menu" class="section">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="menu">
+                <h3>Daytime Specials</h3>
+                <div class="menu-item">
+                    <img src="holi.jpg" alt="Meat">
+                    <p>sexy</p>
+                </div>
+                <div class="menu-item">
+                    <img src="maan.jpg" alt="Chicken">
+                    <p>nice ass</p>
+                </div>
+                <h3>Night Delights</h3>
+                <div class="menu-item">
+                    <img src="sleep.JPG" alt="Burger">
+                    <p>blow job</p>
+                </div>
+                <div class="menu-item">
+                    <img src="group.jpg" alt="Samosa">
+                    <p>hand jobe</p>
+                </div>
+                <div class="menu-item">
+                    <img src="amit.png" alt="Pizza">
+                    <p>some happy coustomer</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services">
+                <img src="holi.jpg" alt="Physical Therapy">
+                <p>Prince provides a unique and affordable physical therapy service from 9 PM to 2 AM in a park located in Hisar, Jind district. For just 17 rupees, you can receive a professional physical therapy session that helps alleviate stress, improve mobility, and promote overall wellness. Join us for a session and experience the benefits of our therapy services.</p>
+            </div>
+        </section>
+
+        <section id="booking" class="section">
+            <h2 class="section-title">Online Booking in park</h2>
+            <div class="booking-form">
+                <img src="group.jpg" alt="Online Booking">
+                <form action="submit_booking.php" method="post">
+                    <div class="form-group">
+                        <label for="name">your sexy  Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="date"> fucking date Preferred Date:</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time"> fucking Preferred Time:</label>
+                        <input type="time" id="time" name="time" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message"> Additional Message:</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Book Now">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section-title">Contact the sexy boy prince</h2>
+            <div class="contact-info">
+                <p><strong>Address:</strong> Jind, Haryana, India</p>
+                <p><strong>Email:</strong> <a href="mailto:prince.duggal@gmail.com">prince.duggal.com</a></p>
+                <p><strong>Phone:</strong> +91 9053912885</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
